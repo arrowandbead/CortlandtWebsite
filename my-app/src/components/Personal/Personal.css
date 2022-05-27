@@ -1,0 +1,53 @@
+.contentHolderInner{
+    height: 95%;
+    width: 95%;
+    background-color: grey;
+    /* box-shadow: inset 10px -10px 10px 0 #404040; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+
+  .pictureHolder{
+    height: 95%;
+    width : 35%;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pictureHolderInner{
+      height: 95%;
+      width: 95%;
+      overflow-y: scroll;
+      background-color: aqua;
+  }
+  
+  .otherContentHolder{
+    width : 60%;
+    height: 95%;
+    background-color: burlywood;
+  }
+
+  .pictures{
+      width: 100%;
+  }
+
+  .titleBanner{
+      width: 100%;
+      height: 10%;
+      background-color: brown;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .mainContent{
+      width: 100%;
+      height: 90%;
+      background-color: azure;
+      overflow-y: scroll;
+
+  }

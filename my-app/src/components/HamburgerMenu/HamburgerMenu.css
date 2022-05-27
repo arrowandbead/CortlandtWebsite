@@ -1,0 +1,60 @@
+.navBar {
+    position: relative;
+    height: 70%;
+    background-color: azure;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hamburgerButton {
+    position: absolute;
+    left: 20px;
+    top: 15px;
+    z-index: 10;
+    cursor: pointer;
+  }
+  
+  .menuNav {
+    overflow-y: scroll;
+    list-style: none;
+    background: darkcyan;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    max-width: 290px;
+    z-index: 9;
+    padding: 0;
+  }
+
+  .menuNav.showMenu {
+    width: 400px;
+  }
+  
+  a {
+    display: block;
+    padding: 10px 40px;
+    text-decoration: none;
+    color: #3fffd2;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .menuNav li:first-child {
+    margin-top: 5rem;
+  }
+
+  .menuNav li{
+    height: 80px;
+    width: 100%;
+  }
+
+  .linkList{
+    background-color: beige;
+  }
+
+
+  .minimizedListItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
